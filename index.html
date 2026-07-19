@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Balakamatchi S — Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Animated gradient blobs background -->
+<div class="bg-blobs" aria-hidden="true">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home"><span class="grad-text" style="font-size: 20px; font-weight: bolder;">Balakamatchi S</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#certifications" class="nav-link">Certifications</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header class="hero" id="home">
+  <div class="hero-inner reveal">
+    <p class="eyebrow">FULL STACK DEVELOPER</p><p class="eyebrow">MERN STACK DEVELOPER</p><p class="eyebrow">SQL DEVELOPER</p>
+    <h1 class="hero-title">
+      Building full‑stack products with <span class="grad-text">precision</span> and a bias for <span class="grad-text">shipping</span>.
+    </h1>
+    <p class="hero-sub">
+      I'm Balakamatchi S, a MERN Stack Developer who turns real problems — proxy attendance, e-commerce operations, crop advisory — into working software end to end, from design through deployment. Currently undergoing hands-on training in MERN Stack development at Besant Technologies, Velachery.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat glass">
+        <span class="stat-num">🏆 1st</span>
+        <span class="stat-label">MERNATHON</span>
+      </div>
+      <div class="stat glass">
+        <span class="stat-num">8.64</span>
+        <span class="stat-label">CGPA</span>
+      </div>
+      <div class="stat glass">
+        <span class="stat-num">MERN</span>
+        <span class="stat-label">Core stack</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- About -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">About</p>
+    <h2 class="section-title reveal">Someone who reads the requirements twice and codes once.</h2>
+    <div class="about-grid">
+      <div class="about-card glass reveal">
+        <p>I recently completed my <em>B.E. (Honours) in Computer Science and Engineering</em> at CSI College of Engineering, graduating in 2026 with a CGPA of 8.64. I build full-stack applications that solve concrete problems rather than tutorial clones — MERNATHON win came from <em>IP ATTEND</em>, a system that stops proxy attendance at the network level.</p>
+        <p>Beyond application development, I'm equally comfortable on the database side — designing normalized schemas, writing stored procedures and triggers, and optimizing queries. I'd rather under-claim and over-deliver than the other way around.</p>
+      </div>
+      <div class="about-tags reveal">
+        <span class="tag glass">🥇 ISTE Best Student Award, 2026</span>
+        <span class="tag glass">🏆 MERNATHON 2025 Winner</span>
+        <span class="tag glass">🎓 Class Topper — B.E. CSE (II Year)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section class="section" id="skills">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Skills</p>
+    <h2 class="section-title reveal">The stack I build with.</h2>
+    <div class="skills-grid">
+      <div class="skill-card glass reveal">
+        <div class="skill-icon">⚛️</div>
+        <h3>MERN Stack</h3>
+        <p>MongoDB · Express.js · React.js · Node.js — my primary stack for full-stack apps, RESTful APIs, and JWT-based auth flows.</p>
+      </div>
+      <div class="skill-card glass reveal">
+        <div class="skill-icon">🗄️</div>
+        <h3>SQL & Databases</h3>
+        <p>MySQL, RDBMS, ER diagrams, schema normalization, constraints, clauses, joins, set operators, subqueries, views, stored procedures, triggers, and functions.</p>
+      </div>
+      <div class="skill-card glass reveal">
+        <div class="skill-icon">🎨</div>
+        <h3>Frontend</h3>
+        <p>React.js, HTML5, CSS3, Bootstrap, responsive web design — clean, functional interfaces built for real users.</p>
+      </div>
+      <div class="skill-card glass reveal">
+        <div class="skill-icon">⚙️</div>
+        <h3>Backend</h3>
+        <p>Node.js, Express.js, RESTful APIs, and server-side development with a focus on performance and scalability.</p>
+      </div>
+      <div class="skill-card glass reveal">
+        <div class="skill-icon">🛠️</div>
+        <h3>Tools & Deployment</h3>
+        <p>Git, GitHub, Postman, VS Code, MySQL Workbench, Netlify, and Render for shipping and testing my work.</p>
+      </div>
+      <div class="skill-card glass reveal">
+        <div class="skill-icon">🔐</div>
+        <h3>AI Technologies</h3>
+        <p>Google Gemini API Integration, GitHub Copilot, Claude AI, Rocket, Prompt Engineering, and AI-assisted application development.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section class="section" id="projects">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Projects</p>
+    <h2 class="section-title reveal">Things I've shipped.</h2>
+    <div class="projects-grid">
+
+      <article class="project-card glass reveal">
+        <div class="project-badge">🏆 Hackathon Winner</div>
+        <h3>IP ATTEND</h3>
+        <p class="project-desc">IP-based employee attendance system that verifies office network addresses to automatically record attendance, eliminating the need for manual attendance audits.</p>
+        <ul class="project-points">
+          <li>JWT-based role authentication for admins and employees</li>
+          <li>Secured API routes with a real-time attendance dashboard</li>
+          <li>Won MERNATHON, Naan Mudhalvan Hackathon 2025</li>
+        </ul>
+        <div class="project-stack">
+          <span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span>
+        </div>
+        <div class="project-badge">
+          <a href="https://github.com/Balakamatchi/IP_Attend" target="_blank" rel="noopener noreferrer" style="color: #2f2b2b; text-decoration:none;">GitHub Repository</a>
+        </div>
+      </article>
+
+      <article class="project-card glass reveal">
+        <div class="project-badge">✈️ AI-Powered</div>
+        <h3>Travel AI</h3>
+        <p class="project-desc">AI-powered travel planning and management web app that generates itineraries, manages trips, tracks budgets, and maintains travel journals through a responsive interface.</p>
+        <ul class="project-points">
+          <li>Google Gemini AI integration for personalized itineraries</li>
+          <li>Cloudinary image storage and interactive maps</li>
+          <li>Expense tracking with secure REST APIs</li>
+        </ul>
+        <div class="project-stack">
+          <span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span>
+        </div>
+        <div class="project-badge">
+          <a href="https://github.com/Balakamatchi/AI_Travel_Planner" target="_blank" rel="noopener noreferrer" style="color: #2f2b2b; text-decoration:none;">GitHub Repository</a>
+        </div>
+      </article>
+
+      <article class="project-card glass reveal">
+        <div class="project-badge">🗄️ Database</div>
+        <h3>E-Commerce Database Management System</h3>
+        <p class="project-desc">Relational database for an e-commerce platform — 15 normalized tables covering customers, products, orders, payments, shipping, carts, wishlists, and returns.</p>
+        <ul class="project-points">
+          <li>Primary/foreign keys and integrity constraints throughout</li>
+          <li>Advanced queries, views, stored procedures, and functions</li>
+          <li>Reporting built with joins, subqueries, and aggregation</li>
+        </ul>
+        <div class="project-stack">
+          <span>MySQL</span><span>RDBMS</span><span>SQL</span>
+        </div>
+        <div class="project-badge">
+          <a href="https://github.com/Balakamatchi/E-Commerce-Database-Management-System" target="_blank" rel="noopener noreferrer" style="color: #2f2b2b; text-decoration:none;">GitHub Repository</a>
+        </div>
+      </article>
+
+      <article class="project-card glass reveal">
+        <div class="project-badge">🌾 IoT + ML</div>
+        <h3>Smart Farmer Advisory System</h3>
+        <p class="project-desc">IoT and ML-based crop recommendation system using real-time soil, weather, and market data, served through a Flask API.</p>
+        <ul class="project-points">
+          <li>Real-time sensor data via Arduino</li>
+          <li>Predictions served through a Flask REST API</li>
+          <li>Responsive HTML/CSS frontend for farmers to consume results</li>
+        </ul>
+        <div class="project-stack">
+          <span>Flask</span><span>Python</span><span>ML</span><span>Arduino</span><span>IoT</span>
+        </div>
+        <div class="project-badge">
+          <a href="https://github.com/Balakamatchi/Smart_Farmer_Advisory_System" target="_blank" rel="noopener noreferrer" style="color: #2f2b2b; text-decoration:none;">GitHub Repository</a>
+        </div>
+      </article>
+
+      <article class="project-card glass reveal">
+        <div class="project-badge">🌸 E-Commerce</div>
+        <h3>Blossom Corner</h3>
+        <p class="project-desc">Flower bouquet e-commerce website with user authentication, a product catalog, shopping cart, and order management, using Local Storage for data persistence.</p>
+        <ul class="project-points">
+          <li>User authentication and account handling</li>
+          <li>Product catalog with cart and order management</li>
+          <li>Local Storage used for data persistence</li>
+        </ul>
+        <div class="project-stack">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+        <div class="project-badge">
+          <a href="https://github.com/Balakamatchi/CRUD_Blossom_Corner" target="_blank" rel="noopener noreferrer" style="color: #2f2b2b; text-decoration:none;">GitHub Repository</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Experience -->
+<section class="section" id="experience">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Experience & Training</p>
+    <h2 class="section-title reveal">Where I've worked and trained.</h2>
+    <div class="timeline">
+      <div class="timeline-item glass reveal">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">Jun 2026 – Present</span>
+        <h3>MERN Stack Developer Internship — Besant Technologies, Velachery</h3>
+        <p>Building full-stack web applications using MongoDB, Express.js, React.js, and Node.js, with hands-on work in RESTful APIs, CRUD operations, React Hooks, Express routes and controllers, MongoDB integration, Postman API testing, and responsive UI development.</p>
+      </div>
+      <div class="timeline-item glass reveal">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">Jun 2026 - Present</span>
+        <h3>SQL Developer Training — Besant Technologies, Velachery</h3>
+        <p>Developed an E-Commerce Database Management System in MySQL, applying RDBMS concepts, ER diagrams, database design, and schema normalization. Implemented DDL, DML, DQL, TCL, and DCL commands, along with joins, subqueries, views, stored procedures, triggers, and user-defined functions.</p>
+      </div>
+      <div class="timeline-item glass reveal">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">Apr 2024</span>
+        <h3>Web Development Internship — InternPE, Jaipur (Remote)</h3>
+        <p>Completed a certificate-based web development program — built responsive web pages and a functional calculator app using HTML, CSS, and JavaScript.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Education -->
+<section class="section" id="education">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Education</p>
+    <h2 class="section-title reveal">Where I built my foundation.</h2>
+    <div class="timeline">
+      <div class="timeline-item glass reveal">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">2022 – 2026</span>
+        <h3>B.E., Computer Science & Engineering (Honours)</h3>
+        <p>CSI College of Engineering — CGPA: 8.64</p>
+      </div>
+      <div class="timeline-item glass reveal">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">2021 – 2022</span>
+        <h3>Higher Secondary Certificate (ISC, Bio-Maths)</h3>
+        <p>Crescent Castle Public School — 83.2%</p>
+      </div>
+      <div class="timeline-item glass reveal">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">2019 – 2020</span>
+        <h3>Secondary School Certificate (ICSE)</h3>
+        <p>Crescent Castle Public School — 89.3%</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Certifications -->
+<section class="section" id="certifications">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Certifications</p>
+    <h2 class="section-title reveal">Credentials that back it up.</h2>
+    <div class="cert-grid">
+
+      <article class="cert-card glass reveal"
+        data-title="HackerRank – SQL (Basic) Certification"
+        data-issuer="HackerRank"
+        data-date="June 2025"
+        data-duration=""
+        data-skills="SQL,Querying Fundamentals"
+        data-certid="601d053f9205"
+        data-link="https://www.hackerrank.com/certificates/601d053f9205"
+        data-image="images/HackerRank_SQL_Basic.png">
+        <div class="cert-thumb">
+          <img src="images/HackerRank_SQL_Basic.png" alt="HackerRank – SQL (Basic) Certification" class="cert-thumb-img">
+        </div>
+        <span class="cert-date-badge">June 2025</span>
+        <h3>HackerRank – SQL (Basic) Certification</h3>
+        <p class="cert-issuer">HackerRank</p>
+        <p class="cert-desc">Solved basic-level SQL problems on HackerRank, demonstrating fundamental querying skills.</p>
+        <button class="cert-view-btn" type="button">View Credential</button>
+      </article>
+
+      <article class="cert-card glass reveal"
+        data-title="MERN Stack Certified Training"
+        data-issuer="KGiSL MicroCollege · Naan Mudhalvan"
+        data-date="October 2025"
+        data-duration=""
+        data-skills="MongoDB,Express.js,React.js,Node.js"
+        data-certid=""
+        data-link="https://github.com/Balakamatchi/IP_Attend"
+        data-image="images/MERN_Stack_Certified_Training.png">
+        <div class="cert-thumb">
+          <img src="images/MERN_Stack_Certified_Training.png" alt="MERN Stack Certified Training" class="cert-thumb-img">
+        </div>
+        <span class="cert-date-badge">October 2025</span>
+        <h3>MERN Stack Certified Training</h3>
+        <p class="cert-issuer">KGiSL MicroCollege · Naan Mudhalvan</p>
+        <p class="cert-desc">Completed an intensive MERN Stack training program sponsored by Naan Mudhalvan and the Tamil Nadu Skill Development Corporation.</p>
+        <button class="cert-view-btn" type="button">View Credential</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+
+<div class="cert-modal" id="certModal">
+  <div class="cert-modal-card">
+    <div class="cert-modal-header">
+      <div>
+        <h3 id="certModalTitle">Certificate Title</h3>
+        <p id="certModalDate">Date</p>
+      </div>
+      <button class="cert-modal-close" id="certModalClose" aria-label="Close">&times;</button>
+    </div>
+
+    <div class="cert-modal-preview">
+      <img id="certModalImage" src="" alt="" class="cert-modal-image">
+    </div>
+
+    <a href="#" target="_blank" rel="noopener" id="certModalLink" class="btn btn-primary cert-modal-link">Open in new tab</a>
+  </div>
+</div>
+
+
+
+<!-- Achievements -->
+<section class="section" id="achievements">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Achievements</p>
+    <h2 class="section-title reveal">Showcasing my accomplishments.</h2>
+    <div class="timeline">
+      <div class="timeline-item glass reveal"
+        data-title="ISTE Best Student Award"
+        data-date="October 2025"
+        data-image="images/ISTE_Award.jpeg">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">Feb 2026</span>
+        <h3>ISTE Best Student Award</h3>
+        <p>Recognized for academic and technical excellence, for the Year 2025.</p>
+        <button class="ach-view-btn" type="button">View Credential</button>
+      </div>
+      <div class="timeline-item glass reveal"
+        data-title="MERN Stack Hackathon — MERNATHON 2025"
+        data-date="Sept 2025"
+        data-image="images/MERN_Winner.jpg">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">Sept 2025</span>
+        <h3>MERN Stack Hackathon — MERNATHON 2025</h3>
+        <p>Won 1st place for the IP ATTEND project at the KGiSL MicroCollege MERNATHON</p>
+        <button class="ach-view-btn" type="button">View Credential</button>
+      </div>
+      <div class="timeline-item glass reveal"
+        data-title="Class Topper — B.E. CSE (II Year)"
+        data-date="Apr 2025"
+        data-image="images/Class_Topper_II_Year.jpeg">
+        <div class="timeline-dot"></div>
+        <span class="timeline-date">Apr 2024</span>
+        <h3>Class Topper — B.E. CSE (II Year)</h3>
+        <p>CSI College of Engineering</p>
+        <button class="ach-view-btn" type="button">View Credential</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="ach-modal" id="achModal">
+  <div class="ach-modal-card">
+    <div class="ach-modal-header">
+      <div>
+        <h3 id="achModalTitle">Certificate Title</h3>
+        <p id="achModalDate">Date</p>
+      </div>
+      <button class="ach-modal-close" id="achModalClose" aria-label="Close">&times;</button>
+    </div>
+
+    <div class="ach-modal-preview">
+      <img id="achModalImage" src="" alt="" class="ach-modal-image">
+    </div>
+
+    <a href="#" target="_blank" rel="noopener" id="achModalLink" class="btn btn-primary ach-modal-link">Open in new tab</a>
+  </div>
+</div>
+
+
+
+<!-- Contact -->
+<section class="section" id="contact">
+  <div class="section-inner">
+    <p class="section-eyebrow reveal">Contact</p>
+    <h2 class="section-title reveal">Let's build something.</h2>
+    <div class="contact-wrap glass reveal">
+      <p class="contact-lead">Open to Full Stack and SQL Developer roles.</p>
+      <div class="contact-links">
+        <a href="mailto:balakamatchisaravanan15@gmail.com" class="contact-link glass">
+          <span class="contact-icon">✉️</span> balakamatchisaravanan15@gmail.com
+        </a>
+        <a href="tel:+918148443604" class="contact-link glass">
+          <span class="contact-icon">📞</span> +91 81484 43604
+        </a>
+        <a href="https://linkedin.com/in/balakamatchi-s" target="_blank" rel="noopener" class="contact-link glass">
+          <span class="contact-icon">💼</span> linkedin.com/in/balakamatchi-s
+        </a>
+        <a href="https://github.com/Balakamatchi" target="_blank" rel="noopener" class="contact-link glass">
+          <span class="contact-icon">🐙</span> github.com/Balakamatchi
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer-pro">
+  <div class="footer-pro-inner">
+    <div class="footer-col footer-brand">
+      <h3 class="footer-brand-name">Balakamatchi S</h3>
+      <p style="text-align: justify;">MERN Stack & SQL Developer focused on building secure, responsive, and data-driven full-stack applications.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <a href="https://github.com/Balakamatchi" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/balakamatchi-s" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:balakamatchisaravanan15@gmail.com">Email</a>
+    </div>
+    <div class="footer-col">
+      <h4>Skills</h4>
+      <span>Full-Stack Development</span>
+      <span>MERN Stack</span>
+      <span>SQL & Databases</span>
+      <span>REST API Development</span>
+    </div>
+  </div>
+  <div class="footer-pro-bottom">
+    <p>© 2026 Balakamatchi S. Designed &amp; built with care for real-world problems.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
